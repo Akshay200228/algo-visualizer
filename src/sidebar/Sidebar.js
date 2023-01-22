@@ -27,12 +27,6 @@ const Sidebar = () => {
                     </Link>
 
                 </ul>
-
-                <div className="sidebar__social">
-                    <a href="https://github.com/Dey-Sumit/algorithm-visualizer" target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-github-alt"></i>
-                    </a>
-                </div>
             </div>
         </div>
     );
