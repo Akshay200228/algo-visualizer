@@ -1,0 +1,100 @@
+.sidebar__wrapper {
+    color: var(--orange);
+    background: var(--dark);
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1), 1px 1px 3px rgba(0, 0, 0, 0.8);
+    flex: 0.1;
+    height: 100vh;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+    height: 100%;
+}
+
+.home {
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar>ul {
+    list-style: none;
+    display: flex;
+    flex: 0.2;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+    margin-bottom: 0px !important;
+}
+
+.sidebar__link-active {
+    color: var(--blue);
+
+}
+
+i {
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
+        1px 1px 3px rgba(0, 0, 0, 0.8);
+    padding: 12px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.sidebar__social {
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar__social>i {
+    border-radius: 10%;
+    color: var(--white);
+    flex: 0.3;
+    text-align: center;
+}
+
+.fa-rocket {
+    color: var(--pink);
+}
+
+.fa-home {
+    color: var(--violet);
+}
+
+.fa-search-location {
+    color: var(--green);
+}
+
+.fa-github-alt {
+    color: var(--white);
+}
+
+@media (max-width:1160px) {
+    .sidebar__wrapper {
+        height: 100px;
+        z-index: 1;
+    }
+
+    .sidebar {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .sidebar>ul {
+        flex-direction: row;
+        height: 85px;
+        width: 20%;
+        align-items: center;
+        flex: 0.6;
+    }
+
+}
