@@ -27,6 +27,11 @@ const Sidebar = () => {
                     </Link>
 
                 </ul>
+                <div className="sidebar__social">
+                    <a href="https://github.com/Akshay200228/algo-visualizer" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github-alt"></i>
+                    </a>
+                </div>
             </div>
         </div>
     );
